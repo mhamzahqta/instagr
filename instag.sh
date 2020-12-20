@@ -1,6 +1,6 @@
 #!/bin/bash
-# Coded by: github.com/dhasirar
-# Instagram: @dhasirar
+# Coded by: github.com/mhamzahqta
+# Instagram: @mhamzahqta
 
 trap 'store;exit 1' 2
 string4=$(openssl rand -hex 32 | cut -c 1-4)
@@ -46,7 +46,7 @@ banner() {
 printf "\e[1;77m     _                              \e[0m\n"
 printf "\e[1;77m _  | |                _            \e[0m\n"
 printf "\e[1;77m( \ | | ____    ___  _| |_  _____   \e[0m\n"
-printf "\e[1;80m ) )| ||  _ \  /___)(_   _)(____ |  \e[0m\n"
+printf "\e[1;80m ) )| ||  _ \  /___)(_   _)____ |  \e[0m\n"
 printf "\e[1;77m(_/ | || | | ||___ |  | |_ / ___ |  \e[0m\n"
 printf "\e[1;77m    |_||_| |_|(___/    \__)\_____|  \e[0m\n"
 printf "\n"
